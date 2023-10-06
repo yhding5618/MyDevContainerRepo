@@ -7,6 +7,26 @@
 		},
 		"dockerfile": "Dockerfile"
 	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.formatOnSave": true,
+				"[python]": {
+					"editor.defaultFormatter": "ms-python.black-formatter"
+				},
+				"github.copilot.editor.enableAutoCompletions": false
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter",
+				"ms-vscode.cpptools",
+				"mshr-h.veriloghdl",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
+			]
+		}
+	},
 	"updateRemoteUserUID": false,
 	"remoteUser": "tuser",
 	"privileged": true,
