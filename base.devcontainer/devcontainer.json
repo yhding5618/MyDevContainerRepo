@@ -1,0 +1,16 @@
+{
+	"name": "base",
+	"build": {
+		"args": {
+			"MY_UID": "${localEnv:MY_UID}",
+			"MY_GID": "${localEnv:MY_GID}"
+		},
+		"dockerfile": "Dockerfile"
+	},
+	"updateRemoteUserUID": false,
+	"remoteUser": "tuser",
+	"privileged": true,
+	"runArgs": [
+		"--userns=host"
+	]
+}
