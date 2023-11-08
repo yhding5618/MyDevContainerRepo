@@ -7,4 +7,4 @@ RUN groupadd -g $MY_GID tuser \
     && useradd -m -u $MY_UID -g $MY_GID -G sudo -K HOME_MODE=0777 -s /bin/bash tuser \
     && cp /etc/skel/.bashrc /home/tuser \
     && cp /etc/skel/.profile /home/tuser \
-    && (echo "tuser ALL=(ALL) NOPASSWD:ALL" | tee /etc/sudoers.d/tuser)
+    && (echo "tuser ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/tuser)

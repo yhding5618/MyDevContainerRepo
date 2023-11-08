@@ -2,8 +2,8 @@
 	"name": "base",
 	"build": {
 		"args": {
-			"MY_UID": "${localEnv:MY_UID}",
-			"MY_GID": "${localEnv:MY_GID}"
+			"MY_UID": "1000055",
+			"MY_GID": "1000001"
 		},
 		"dockerfile": "Dockerfile"
 	},
