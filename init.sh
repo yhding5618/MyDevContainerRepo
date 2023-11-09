@@ -9,3 +9,5 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
 && ~/miniconda3/bin/conda init bash
 # pytorch:
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+# for cv2:
+sudo apt install -y ffmpeg libsm6 libxext6

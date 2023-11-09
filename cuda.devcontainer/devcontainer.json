@@ -1,5 +1,5 @@
 {
-	"name": "base",
+	"name": "cuda",
 	"build": {
 		"args": {
 			"MY_UID": "1000055",
@@ -20,6 +20,7 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"ms-python.black-formatter",
+				"ms-toolsai.jupyter",
 				"ms-vscode.cpptools",
 				"mshr-h.veriloghdl",
 				"GitHub.copilot",
